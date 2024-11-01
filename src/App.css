@@ -1,0 +1,68 @@
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} 
+
+/* General body styles */
+body {
+  font-family: Arial, sans-serif; /* Default font */
+  background-color: #f8f9fa; /* Light background for the page */
+  margin: 0; /* Remove default margin */
+  padding: 20px; /* Add some padding around the content */
+}
+
+/* Style for all links */
+a {
+  display: inline-block; /* Make links inline-block for horizontal stacking */
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Link color */
+  font-size: 18px; /* Font size */
+  padding: 10px 15px; /* Padding around links */
+  margin: 0 5px; /* Horizontal space between links */
+  border-radius: 4px; /* Rounded corners for links */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for links */
+a:hover {
+  background-color: #007bff; /* Change background on hover */
+  color: rgb(253, 253, 253); /* Change text color on hover */
+}
